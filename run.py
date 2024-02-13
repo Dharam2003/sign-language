@@ -1,5 +1,5 @@
 bind = "0.0.0.0:1000"  # Replace with your desired port
-workers = 2  # Adjust the number of worker processes
+workers = 60  # Adjust the number of worker processes
 
 # Optional: Logging configuration
 loglevel = "info"
