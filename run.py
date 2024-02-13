@@ -7,8 +7,8 @@ accesslog = "-"
 
 # ... other configuration options
 
-def app( start_response):
+def app(environ, start_response):
     # Import your Flask app here
     from app import app
 
-    return app( start_response)
+    return app(environ, start_response)
