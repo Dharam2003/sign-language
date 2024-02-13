@@ -1,4 +1,4 @@
-bind = "0.0.0.0:8080"  # Replace with your desired port
+bind = "0.0.0.0:1000"  # Replace with your desired port
 workers = 2  # Adjust the number of worker processes
 
 # Optional: Logging configuration
